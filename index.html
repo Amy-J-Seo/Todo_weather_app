@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <title>Live This Moment!</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="greeting">
+            <h4 class="js-greetings greetings"></h4>
+            <form class="js-form form">
+                <input class="name" type="text" placeholder="What is your name?">
+            </form>
+        </div>
+        <div class="js-clock">
+            <h1>00:00</h1>
+            <!-- <h2>aa</h1> -->
+        </div>
+
+
+        <div class="toDoList">
+            <form class="js-toDoForm">
+                <input class="things" type="text" placeholder="Things to do">
+            </form>
+            <ul class="js-toDoList">
+            </ul>
+        </div>
+        <div class="weather">
+            <span class="js-weather"></span>
+        </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
